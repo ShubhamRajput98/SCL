@@ -75,7 +75,7 @@ export default function Contact() {
           </p>
           <div className="mt-8 space-y-4">
             <div className="flex gap-4 rounded-2xl bg-white p-4">
-              <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-paper text-emerald-800">
+              <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-paper text-forest">
                 <Mail size={19} />
               </span>
               <div>
@@ -86,7 +86,7 @@ export default function Contact() {
               </div>
             </div>
             <div className="flex gap-4 rounded-2xl bg-white p-4">
-              <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-paper text-emerald-800">
+              <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-paper text-forest">
                 <Phone size={19} />
               </span>
               <div>
@@ -97,7 +97,7 @@ export default function Contact() {
               </div>
             </div>
             <div className="flex gap-4 rounded-2xl bg-white p-4">
-              <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-paper text-emerald-800">
+              <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-paper text-forest">
                 <MapPin size={19} />
               </span>
               <div>
@@ -110,7 +110,7 @@ export default function Contact() {
               </div>
             </div>
             <div className="flex gap-4 rounded-2xl bg-white p-4">
-              <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-paper text-emerald-800">
+              <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-paper text-forest">
                 <Clock size={19} />
               </span>
               <div>
@@ -148,7 +148,7 @@ export default function Contact() {
                   value={form[name]}
                   onChange={update}
                   required={required}
-                  className="w-full rounded-xl border border-forest/10 bg-paper px-4 py-3.5 text-sm outline-none transition placeholder:text-muted/60 focus:border-emerald-700 focus:ring-2 focus:ring-emerald-700/10"
+                  className="w-full rounded-xl border border-forest/10 bg-paper px-4 py-3.5 text-sm outline-none transition placeholder:text-muted/60 focus:border-forest focus:ring-2 focus:ring-emerald-700/10"
                 />
               </label>
             ))}
@@ -161,7 +161,7 @@ export default function Contact() {
                 value={form.service}
                 onChange={update}
                 required
-                className="w-full rounded-xl border border-forest/10 bg-paper px-4 py-3.5 text-sm outline-none focus:border-emerald-700"
+                className="w-full rounded-xl border border-forest/10 bg-paper px-4 py-3.5 text-sm outline-none focus:border-forest"
               >
                 <option>Storage & Warehousing</option>
                 <option>Temperature-Controlled Storage (−20°C)</option>
@@ -179,7 +179,7 @@ export default function Contact() {
                 placeholder="Pickup city / location"
                 value={form.origin}
                 onChange={update}
-                className="w-full rounded-xl border border-forest/10 bg-paper px-4 py-3.5 text-sm outline-none focus:border-emerald-700"
+                className="w-full rounded-xl border border-forest/10 bg-paper px-4 py-3.5 text-sm outline-none focus:border-forest"
               />
             </label>
             <label className="block">
@@ -191,7 +191,7 @@ export default function Contact() {
                 placeholder="Delivery city / location"
                 value={form.destination}
                 onChange={update}
-                className="w-full rounded-xl border border-forest/10 bg-paper px-4 py-3.5 text-sm outline-none focus:border-emerald-700"
+                className="w-full rounded-xl border border-forest/10 bg-paper px-4 py-3.5 text-sm outline-none focus:border-forest"
               />
             </label>
             <label className="block sm:col-span-2">
@@ -203,7 +203,7 @@ export default function Contact() {
                 placeholder="Product type, quantity, temperature needs…"
                 value={form.cargo}
                 onChange={update}
-                className="w-full rounded-xl border border-forest/10 bg-paper px-4 py-3.5 text-sm outline-none focus:border-emerald-700"
+                className="w-full rounded-xl border border-forest/10 bg-paper px-4 py-3.5 text-sm outline-none focus:border-forest"
               />
             </label>
             <label className="block sm:col-span-2">
@@ -214,7 +214,7 @@ export default function Contact() {
                 placeholder="Tell us more about your requirements…"
                 value={form.message}
                 onChange={update}
-                className="w-full resize-y rounded-xl border border-forest/10 bg-paper px-4 py-3.5 text-sm outline-none focus:border-emerald-700"
+                className="w-full resize-y rounded-xl border border-forest/10 bg-paper px-4 py-3.5 text-sm outline-none focus:border-forest"
               />
             </label>
           </div>
